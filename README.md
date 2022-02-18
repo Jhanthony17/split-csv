@@ -1,13 +1,13 @@
-#split-csv
+# split-csv
 This script helps you to split your csv files
 
 Was proved on Windows 10
 
 ## Prerequesites
-`You'll need to install the follow packeage with pip:
-os
-argparse
-csv`
+`You'll need to install the follow packeage with pip:`
+`os`
+`argparse`
+`csv`
 
 ## Usage
 `python split_csv.py <name of file to split> <lines you want in each output file>`

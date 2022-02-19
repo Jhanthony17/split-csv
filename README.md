@@ -4,10 +4,16 @@ This script helps you to split your csv files
 Was proved on Windows 10
 
 ## Prerequesites
-`You'll need to install the follow packeages with pip:`
+This library uses the following packages from the standard library:
 `os`
+
 `argparse`
+
 `csv`
+
+Optionally you can format your code using https://pypi.org/project/black/ which is included in `requirements.txt`
+
+`requirements.txt` is intended to be used with virtual environments https://docs.python.org/3/library/venv.html 
 
 ## Usage
 `py split_csv.py <name of file to split> <lines you want in each output file>`
